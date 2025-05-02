@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Semántica</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #333; color: white; padding: 15px; text-align: center; }
+        nav { background: #444; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 10px; text-decoration: none; }
+        main { padding: 20px; }
+        section, aside { margin-bottom: 20px; }
+        figure { text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Página Web Semántica</h1>
+    </header>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#articulo">Artículo</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <p>Esta es una página web de ejemplo que usa etiquetas semánticas.</p>
+        </section>
+        <article id="articulo">
+            <h2>Artículo Destacado</h2>
+            <p>Ejemplo de un artículo con imagen y descripción.</p>
+            <figure>
+                <img src="https://via.placeholder.com/400" alt="Imagen de ejemplo">
+                <figcaption>Ejemplo de una imagen con descripción.</figcaption>
+            </figure>
+        </article>
+        <aside>
+            <h3>Noticias Relacionadas</h3>
+            <ul>
+                <li><a href="#">Noticia 1</a></li>
+                <li><a href="#">Noticia 2</a></li>
+            </ul>
+        </aside>
+        <section>
+            <h2>Lista de Elementos</h2>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Tabla de Datos</h2>
+            <table border="1" width="100%">
+                <caption>Información de Usuarios</caption>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>País</th>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>30</td>
+                    <td>España</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Argentina</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Derechos reservados &copy; 2025</p>
+    </footer>
+</body>
+</html>
